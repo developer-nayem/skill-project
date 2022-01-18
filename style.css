@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+}
+.container{
+
+}
+/*===================================
+             Header
+===================================*/
+.header{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(images1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .header .content{
+     position: absolute;
+     display: flex;
+}
+.header .name p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 100px 0px 10px 50px;
+}
+.header .my-skills p{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(248, 120, 169);
+    margin: 0px 0px 10px 50px;
+}
+.header .photo img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    margin: 50px 0px 10px 50px;
+}
+/*===================================
+             Skill
+===================================*/
+.skill{
+    width: 95%;
+    margin: 10px auto; 
+}
+.skill .title h1{
+    text-align: center;
+    padding: 10px;
+}
+.skill .content h2{
+    text-align: left;
+    display: inline-block
+}
+.skill .content
+ .html,
+ .css,
+ .javascript{
+    box-shadow: 0px 0px 5px 0px grey;
+    padding: 15px;
+    margin: 5px 0px 20px 0px;
+}
+.skill .content .name{
+
+}
+.skill .content .html .line{
+    width: 80%;
+    height: 7px;
+    background-color: rgb(31, 179, 31);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(31, 179, 31);
+    animation-name: html-progress;
+}
+.skill .content .css .line{
+    width: 90%;
+    height: 7px;
+    background-color: rgb(38, 0, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(38, 0, 255);
+    animation-name: css-progress;
+}
+.skill .content .javascript .line{
+    width: 40%;
+    height: 7px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px red;
+    animation-name: javascript-progress;
+}
+.skill .content .line{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes html-progress {
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+    
+}
+@keyframes css-progress {
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+    
+}
+@keyframes javascript-progress {
+    from{
+        width: 0;
+    }
+    to{
+        width: 40%;
+    }
+    
+}
+/*===================================
+             About 
+===================================*/
+.about{
+    width: 95%;
+    margin: 10px auto;
+}
+.about .content{
+    width: 100%;
+    height: 300px;
+}
+/*===================================
+             Contact
+===================================*/
+.contact{
+    width: 95%;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+.contact .tittle{
+    text-align: center;
+}
+.contact .content{
+    width: 70%;
+    margin: auto;
+}
+.contact .content .social{
+    display: inline-flex;
+    margin: 0px 0px 10px 40px;
+}
+.contact .content .social button{
+    width: 200px;
+    height: 45px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact .content .social,.facebook button{
+    background-color: rgb(218, 93, 44);
+    border: 1px solid rgb(218, 93, 44);
+    border-radius: 5px;
+}
+.contact .content .social,.twitter button{
+    background-color: rgb(84, 108, 173);
+    border: 1px solid rgb(84, 108, 173);
+    border-radius: 5px;
+}
+.contact .content .social,.whatsapp button{
+    background-color: rgb(219, 58, 211);
+    border: 1px solid rgb(219, 58, 211);
+    border-radius: 5px;
+}
+.contact .content .social button a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+.contact .content .social button img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 10px;
+}
+
+/*===================================
+             medea quaris
+===================================*/
+
+/*===================================
+
+===================================*/
